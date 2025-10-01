@@ -1,6 +1,9 @@
 # Waira
+
 Lema: “Más que un servicio, te brindamos una experiencia”
+
 Descripción: 
+
 Resort Waira es un software de consola diseñado para gestionar de manera eficiente la atención a los clientes de un resort. Permite planear la demanda, registrar clientes, calcular costos, ventas y ganancias, y acceder a un módulo administrador con reportes detallados.
 El README debe ser la carta de presentación de tu proyecto. Ejemplo de estructura:
 
