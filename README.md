@@ -27,4 +27,4 @@ Programa: Ingeniería industrial
 Habilidades y fortalezas: Posee una visión amplia del proyecto y sabe orientar al equipo hacia los objetivos comunes. Se destaca por su capacidad para organizar ideas, coordinar tareas y mantener la motivación de sus compañeros. Su carácter decidido y su habilidad para tomar la iniciativa la convierten en una pieza clave para que el grupo avance de manera ordenada y eficiente.
 
 Responsabilidad en el proyecto: Coordinación general del proyecto y seguimiento del módulo administrador.
-Líder: Nicolle 
+Líder: Cristian
