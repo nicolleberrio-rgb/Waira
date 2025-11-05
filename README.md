@@ -15,7 +15,7 @@ Habilidades y fortalezas: Es una persona muy responsable y comprometida con todo
 
 Responsabilidad en el proyecto: Gestión de la planeación de la demanda y apoyo en la documentación del sistema.
 
-Integrante 2 - Cristian
+Integrante 2 - Cristian Salamanca
 Programa: Ingeniería industrial
 
 Habilidades y fortalezas: Posee excelentes habilidades en programación, es una persona propositiva y creativa, además de ser muy diligente y disciplinado en el cumplimiento de sus responsabilidades.
