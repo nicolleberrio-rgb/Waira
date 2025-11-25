@@ -1,0 +1,12 @@
+habitaciones_sola=10
+habitaciones_doble=3
+habitaciones_familiar=6
+cupos_alimentacion=80
+cupos_turismo=50
+tarifa_sola=120000
+tarifa_doble=180000
+tarifa_familiar=250000
+precio_comida=25000
+precio_tour=80000
+costos_fijos=200000
+porcentaje_costos=0.45
