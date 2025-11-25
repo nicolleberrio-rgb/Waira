@@ -47,3 +47,24 @@ while continuar:
 """)
 
     opcion = input("Seleccione una opción: ")
+    ##opcion 1 
+if opcion == "1":
+        datos = leer_alistamiento()
+        print("\n--- ALISTAMIENTO ACTUAL ---")
+        for k, v in datos.items():
+            print(k, "=", v)
+
+        print("\nModifique valores (enter para mantener):")
+        for k in datos:
+            nuevo = input(f"{k} [{datos[k]}]: ")
+            if nuevo.strip() != "":
+                try:
+                    if "." in nuevo:
+                        datos[k] = float(nuevo)
+                    else:
+                        datos[k] = int(nuevo)
+                except:
+                    datos[k] = nuevo
+
+        guardar_alistamiento(datos)
+        print("\n[OK] Planeación actualizada.\n")
