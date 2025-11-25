@@ -1,30 +1,73 @@
-# Waira resort
+<p align="center">
+  <img src="https://github.com/nicolleberrio-rgb/Waira/blob/main/assets/Logo%20resort%20natural%20simple%20elegante%20verde%20y%20cafe%20(1).jpg" width="300">
+</p>
 
-Lema: “Más que un servicio, te brindamos una experiencia”
+##  WAIRA RESORT NATURAL SYSTEM
 
-Descripción: 
+<p align="center"><em>"Más que un servicio, te brindamos una experiencia"</em></p>
 
-El Resort Waira, ubicado en la Guajira, requiere un programa de consola que permita gestionar de manera eficiente sus operaciones internas y mejorar la experiencia de sus visitantes. Este sistema estará orientado a la planeación de la demanda, facilitando la anticipación de la ocupación y el uso de recursos; además, integrará un módulo de registro y control de llegadas de clientes, garantizando un proceso ágil y organizado desde el ingreso. También incluirá herramientas para el cálculo de ventas y generación de reportes, brindando un mayor control financiero y respaldo en la toma de decisiones. Finalmente, contará con un módulo administrador que centralizará la gestión del sistema, permitiendo supervisar, configurar y optimizar todas las funciones. Con esta solución, el Resort Waira busca fortalecer su gestión operativa, ofrecer un servicio de calidad y consolidarse como un referente turístico en la región.
+## Descripcion del proyecto
 
-Equipo de desarrollo:
+El Resort Waira, ubicado en la Guajira, requiere un programa de consola que permita gestionar de manera eficiente sus operaciones internas y mejorar la experiencia de sus visitantes.
 
-Integrante 1 – Maria José Rivera 
-Programa: Ingeniería industrial
+Este sistema incluye:
 
-Habilidades y fortalezas: Es una persona muy responsable y comprometida con todo lo que emprende. Su inteligencia le permite analizar con facilidad diferentes escenarios y proponer soluciones efectivas. Además, cuenta con una gran dosis de creatividad, lo que aporta ideas frescas y novedosas al equipo. Su capacidad para expresarse y comunicarse con claridad facilita el trabajo colaborativo y convierte sus aportes en un recurso valioso para el proyecto.
+- Planeación de la demanda (habitaciones, alimentación, turismo).
+- Registro y gestión de clientes.
+- Control de mascotas.
+- Cálculo automático de costos, ingresos y ganancias.
+- Generación de reportes.
+- Módulo administrativo con validación avanzada.
 
-Responsabilidad en el proyecto: Gestión de la planeación de la demanda y apoyo en la documentación del sistema.
+El objetivo es fortalecer la gestión operativa del resort, mejorar la calidad del servicio y consolidar al Resort Waira como un referente turístico en la región.
 
-Integrante 2 - Cristian Salamanca
-Programa: Ingeniería industrial
+##  Mapa General del Resort
 
-Habilidades y fortalezas: Posee excelentes habilidades en programación, es una persona propositiva y creativa, además de ser muy diligente y disciplinado en el cumplimiento de sus responsabilidades.
-Responsabilidad en el proyecto: Desarrollo del módulo de registro de clientes y validaciones de datos.
+<p align="center">
+  <img src="https://github.com/nicolleberrio-rgb/Waira/blob/main/assets/WhatsApp%20Image%202025-10-02%20at%209.51.45%20PM.jpeg" width="450">
+</p>
 
-Integrante 3 - Nicolle Berrio
-Programa: Ingeniería industrial
+<p align="center"><em>Distribución general de las zonas del Resort Waira.</em></p>
 
-Habilidades y fortalezas: Posee una visión amplia del proyecto y sabe orientar al equipo hacia los objetivos comunes. Se destaca por su capacidad para organizar ideas, coordinar tareas y mantener la motivación de sus compañeros. Su carácter decidido y su habilidad para tomar la iniciativa la convierten en una pieza clave para que el grupo avance de manera ordenada y eficiente.
+##  Layout del Sistema (Menú Principal)
 
-Responsabilidad en el proyecto: Coordinación general del proyecto y seguimiento del módulo administrador.
-Líder: Cristian
+<p align="center">
+  <img src="https://github.com/nicolleberrio-rgb/Waira/blob/main/assets/WhatsApp%20Image%202025-11-25%20at%201.17.03%20PM.jpeg" width="600">
+</p>
+
+<p align="center"><em>Vista general del menú principal del sistema WAIRA.</em></p>
+
+#  Equipo de Desarrollo
+
+## *Integrante 1 – Maria José Rivera calle*  
+*Programa:* Ingeniería Industrial  
+
+### Habilidades y fortalezas:
+Responsable, comprometida y analítica. Su creatividad aporta ideas novedosas y facilita la resolución efectiva de problemas. Destaca por su claridad al comunicar y por su capacidad de trabajar colaborativamente.
+
+*Rol en el proyecto:*  
+Gestión de la planeación de la demanda y apoyo en documentación.
+
+## *Integrante 2 – Cristian Felipe Salamanca Chavez*  
+*Programa:* Ingeniería Industrial  
+
+### Habilidades y fortalezas:
+Posee excelentes habilidades en programación. Es creativo, propositivo, disciplinado y eficiente al desarrollar soluciones técnicas.
+
+*Rol en el proyecto:*  
+Desarrollo del módulo de registro de clientes y validaciones del sistema.  
+*Líder técnico del proyecto*
+
+## *Integrante 3 – Nicolle Alejandra Berrio*  
+*Programa:* Ingeniería Industrial  
+
+### Habilidades y fortalezas:
+Tiene una visión estratégica y orienta al equipo hacia los objetivos generales. Organiza, coordina y mantiene la motivación del grupo. Toma decisiones con seguridad y claridad.
+
+*Rol en el proyecto:*  
+Coordinación general y seguimiento del módulo administrador.
+
+<p align="center">
+  <strong>WAIRA Resort Natural – Sistema de Gestión Integrado</strong><br>
+  <em>Desarrollado por estudiantes de Ingeniería Industrial Universidad de Antioquia</em>
+</p>
