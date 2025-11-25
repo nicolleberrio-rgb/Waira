@@ -67,6 +67,12 @@ Tiene una visión estratégica y orienta al equipo hacia los objetivos generales
 *Rol en el proyecto:*  
 Coordinación general y seguimiento del módulo administrador.
 
+## Entregas del Proyecto
+
+A continuación se encuentran las entregas oficiales solicitadas por el docente:
+
+- [ Entrega 1 – Informe del Proyecto](https://github.com/nicolleberrio-rgb/Waira/blob/main/docs/ENTREGA%201.pdf)
+
 <p align="center">
   <strong>WAIRA Resort Natural – Sistema de Gestión Integrado</strong><br>
   <em>Desarrollado por estudiantes de Ingeniería Industrial Universidad de Antioquia</em>
