@@ -123,3 +123,15 @@ elif opcion == "2":
 
         print("\n[OK] Cliente registrado.")
         print("Total estimado:", total, "\n")
+    ##opcion 3 
+
+    ##opcion 4
+  elif opcion == "4":
+        print("\n--- MASCOTAS REGISTRADAS ---\n")
+        with open("clientes.csv", "r", encoding="utf-8") as f:
+            lector = csv.reader(f)
+            next(lector)
+            for c in lector:
+                if c[7] == "s":
+                    print(f"{c[0]} {c[1]} trajo una {c[8]} llamada {c[9]}")
+        print()
