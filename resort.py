@@ -133,5 +133,5 @@ elif opcion == "2":
             next(lector)
             for c in lector:
                 if c[7] == "s":
-                    print(f"{c[0]} {c[1]} trajo una {c[8]} llamada {c[9]}")
+                    print(f"{c[0]} {c[1]} trajo un@ {c[8]} llamad@ {c[9]}")
         print()
