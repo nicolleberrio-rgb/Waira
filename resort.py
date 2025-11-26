@@ -122,8 +122,17 @@ elif opcion == "2":
             writer.writerow([nombre,apellido,documento,tipo,personas,noches,hab,mascota,tipo_m,nombre_m,tours,total])
 
         print("\n[OK] Cliente registrado.")
-        print("Total estimado:", total, "\n")
-    ##opcion 3 
+        print("Total estimado:", total, "\n") 
+    
+# 3) LISTA DE CLIENTES
+    elif opcion == "3":
+        print("\n--- CLIENTES REGISTRADOS ---\n")
+        with open("clientes.csv", "r", encoding="utf-8") as f:
+            lector = csv.reader(f)
+            next(lector)
+            for fila in lector:
+                print(fila)
+        print()
 
     ##opcion 4
   elif opcion == "4":
