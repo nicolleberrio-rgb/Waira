@@ -47,7 +47,7 @@ while continuar:
 """)
 
     opcion = input("Seleccione una opción: ")
-    ##opcion 1 
+    
 if opcion == "1":
         datos = leer_alistamiento()
         print("\n--- ALISTAMIENTO ACTUAL ---")
@@ -67,4 +67,59 @@ if opcion == "1":
                     datos[k] = nuevo
 
         guardar_alistamiento(datos)
-        print("\n[OK] Planeación actualizada.\n")
+        print("\nPlaneación actualizada.\n")
+elif opcion == "2":
+
+        print("\n--- REGISTRO DE CLIENTES ---")
+        print("1. Individual (1 persona)")
+        print("2. Pareja (2 personas)")
+        print("3. Familiar (4 personas)")
+
+        tipo = input("Seleccione tipo: ")
+
+        if tipo == "1":
+            personas = 1; hab = "single"
+        elif tipo == "2":
+            personas = 2; hab = "double"
+        elif tipo == "3":
+            personas = 4; hab = "family"
+        else:
+            print("Tipo inválido.\n")
+            continue
+
+        # Nombres
+        nombre = input("Nombre: ")
+        while not validar_nombre(nombre):
+            nombre = input("Nombre inválido. Intente de nuevo: ")
+
+        apellido = input("Apellido: ")
+        while not validar_nombre(apellido):
+            apellido = input("Apellido inválido. Intente de nuevo: ")
+
+        documento = input("Documento: ")
+        while not validar_doc(documento):
+            documento = input("Documento inválido. Intente de nuevo: ")
+
+        noches = int(input("Noches: "))
+        tours = int(input("Tours: "))
+
+        mascota = input("¿Trae mascota? (s/n): ").lower()
+        if mascota == "s":
+            tipo_m = input("Tipo de mascota: ")
+            nombre_m = input("Nombre de la mascota: ")
+        else:
+            tipo_m = ""
+            nombre_m = ""
+
+        # costos
+        datos = leer_alistamiento()
+        tarifa = datos[f"tarifa_{hab}"]
+        total = tarifa*noches + personas*datos["precio_comida"]*noches + tours*datos["precio_tour"]
+
+        # Guardar CSV
+        with open("clientes.csv", "a", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow([nombre,apellido,documento,tipo,personas,noches,hab,mascota,tipo_m,nombre_m,tours,total])
+
+        print("\n[OK] Cliente registrado.")
+        print("Total estimado:", total, "\n")
