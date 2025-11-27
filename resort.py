@@ -184,6 +184,25 @@ elif opcion == "2":
 
         print("[OK] Reporte guardado.\n")
         
+        elif opcion == "6":
+        print("\n--- Exportar administración ---")
+        user = input("Usuario admin: ")
+        pwd = input("Clave: ")
+
+        admins = []
+        with open("admin_users.txt", "r", encoding="utf-8") as f:
+            for l in f:
+                admins.append(tuple(l.strip().split(",")))
+
+        if (user, pwd) not in admins:
+            print("Acceso denegado.\n")
+            continue
+
+        print("Archivos disponibles para exportar:")
+        print("- clientes.csv")
+        print("- reporte.csv")
+        print("Listo.\n")
+
         ##Para la opcion 7 salir
 elif opcion == "7":
         print("\nSaliendo del sistema...\n")
