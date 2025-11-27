@@ -183,3 +183,11 @@ elif opcion == "2":
             f.write(f"ganancia,{ganancia}\n")
 
         print("[OK] Reporte guardado.\n")
+        
+        ##Para la opcion 7 salir
+elif opcion == "7":
+        print("\nSaliendo del sistema...\n")
+        continuar = False
+
+    else:
+        print("Opción inválida.\n")
