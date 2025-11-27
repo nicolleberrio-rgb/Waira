@@ -144,3 +144,41 @@ elif opcion == "2":
                 if c[7] == "s":
                     print(f"{c[0]} {c[1]} trajo un@ {c[8]} llamad@ {c[9]}")
         print()
+ # 5) ADMIN: GANANCIAS
+    elif opcion == "5":
+        admins = []
+        with open("admin_users.txt", "r", encoding="utf-8") as f:
+            for l in f:
+                admins.append(tuple(l.strip().split(",")))
+
+        user = input("Usuario admin: ")
+        pwd = input("Clave: ")
+
+        if (user, pwd) not in admins:
+            print("Acceso denegado.\n")
+            continue
+
+        datos = leer_alistamiento()
+        ingresos = 0
+
+        with open("clientes.csv", "r", encoding="utf-8") as f:
+            lec = csv.reader(f)
+            next(lec)
+            for c in lec:
+                ingresos += float(c[11])
+
+        costos = ingresos*datos["porcentaje_costos"] + datos["costos_fijos"]
+        ganancia = ingresos - costos
+
+        print("\n--- REPORTE ---")
+        print("Ingresos:", ingresos)
+        print("Costos:", costos)
+        print("Ganancia:", ganancia, "\n")
+
+        with open("reporte.csv", "w", encoding="utf-8") as f:
+            f.write("concepto,valor\n")
+            f.write(f"ingresos,{ingresos}\n")
+            f.write(f"costos,{costos}\n")
+            f.write(f"ganancia,{ganancia}\n")
+
+        print("[OK] Reporte guardado.\n")
