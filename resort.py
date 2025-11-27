@@ -144,6 +144,7 @@ elif opcion == "2":
                 if c[7] == "s":
                     print(f"{c[0]} {c[1]} trajo un@ {c[8]} llamad@ {c[9]}")
         print()
+      
  # 5) ADMIN: GANANCIAS
     elif opcion == "5":
         admins = []
