@@ -1,36 +1,48 @@
-import os
-import csv
+import os 
+import csv # Para leer y escribir el archivo clientes.csv en forma de filas y columnas segun requerido
 
+# funcion leer alistamientos 
 def leer_alistamiento():
     datos = {}
+    #Abre el archivo en modo lectura "r" usando codificacion "utf-8"
     with open("alistamiento.txt", "r", encoding="utf-8") as f:
         for linea in f:
+            # k clave, v valor ambos string 
             k, v = linea.strip().split("=")
+            # Se intenta convertir el valor string v a numero (int o float)
             try:
+                # Determinar si v es un float o un entero
                 if "." in v:
                     v = float(v)
                 else:
                     v = int(v)
             except:
+                # sigue siendo v un string
                 pass
             datos[k] = v
     return datos
-
-
+    
+# Funcion usada para actualizar el archivo de parametros del resort
 def guardar_alistamiento(datos):
+    # Abre el archivo en modo escritura "w" lo cual borra todo lo que haya y lo reemplaza
     with open("alistamiento.txt", "w", encoding="utf-8") as f:
         for k, v in datos.items():
+            # Escribe la clave y el valor con el formato : ejm: tarifa:single=1200000 y cada uno queda en una linea 
             f.write(f"{k}={v}\n")
 
 
 def validar_nombre(n):
+    # n.isalpha() verifica que el nombre solo tenga letras y si se escribe espacios falla
     return n.isalpha() and len(n) >= 3
 
 def validar_doc(d):
+    # d.isdigit() verifica que el documento tenga solo numeros y minimo 3 y maximo 15 numeros
     return d.isdigit() and 3 <= len(d) <= 15
-
+    
+# Define que el programa debe seguir ejecutandose
 continuar = True
 
+# Ciclo infinito hasta que se detenga en la ultima opcion
 while continuar:
 
     print("""
