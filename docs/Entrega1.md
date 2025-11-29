@@ -1,1 +1,0 @@
-Informe Entrega 1 
