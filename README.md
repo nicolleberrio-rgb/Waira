@@ -39,7 +39,7 @@ El objetivo es fortalecer la gestión operativa del resort, mejorar la calidad d
 
 #  Equipo de Desarrollo
 
-## *Integrante 1 – Maria José Rivera calle*  
+## *Integrante 1 – Maria José Rivera Calle  
 *Programa:* Ingeniería Industrial  
 
 ### Habilidades y fortalezas:
